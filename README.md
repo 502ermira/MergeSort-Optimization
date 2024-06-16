@@ -1,7 +1,7 @@
 # Analysis and Optimization of MergeSort
 
 ## Overview
-This project involves the implementation and optimization of several sorting algorithms, focusing on different variants of the MergeSort algorithm. The provided code includes implementations for MergeSort, MergeSort 3-way, and Bottom-up MergeSort.
+This project involves the implementation and optimization of different variants of the MergeSort algorithm.
 
 ## Sorting Algorithms
 
@@ -11,22 +11,22 @@ This project involves the implementation and optimization of several sorting alg
 - **Space Complexity:** O(n)
 
 ### MergeSort 3-way
-- **Description:** MergeSort 3-way is a variant of MergeSort that divides the array into three parts instead of two. This approach can affect performance and efficiency compared to traditional MergeSort.
+- **Description:** MergeSort 3-way is a variant that divides the array into three parts instead of two, potentially affecting performance and efficiency.
 - **Time Complexity:** O(n log₃ n)
 - **Space Complexity:** O(n)
 
 ### Bottom-up MergeSort
-- **Description:** Bottom-up MergeSort is an iterative version of MergeSort that sorts the array from the bottom (smallest sub-arrays) up, eliminating the need for recursion and potentially improving space efficiency.
+- **Description:** Bottom-up MergeSort iteratively sorts the array from the smallest sub-arrays up, improving space efficiency by eliminating recursion.
 - **Time Complexity:** O(n log n)
 - **Space Complexity:** O(n)
 
 ## Code Description
-The provided code includes implementations for the following sorting algorithms:
+The provided code includes implementations for the following variants of MergeSort:
 
 - **MergeSort:** Recursively divides the array into halves, sorts each half, and merges them.
 - **MergeSort 3-way:** Divides the array into three parts, sorts each part, and merges them.
-- **Bottom-up MergeSort:** Iteratively sorts and merges sub-arrays of increasing size until the entire array is sorted.
+- **Bottom-up MergeSort:** Iteratively sorts and merges sub-arrays until the entire array is sorted.
 
-Each algorithm is designed to efficiently sort arrays of various sizes while maintaining the specified time and space complexities.
+Each algorithm efficiently handles arrays of various sizes while maintaining specified time and space complexities.
 
-This README provides an overview of the project, highlighting the implementation and optimization of sorting algorithms, especially variants of MergeSort. The provided code is ready for use and further analysis.
+This README provides an overview of the project, emphasizing the implementation and optimization of MergeSort and its variants. The code is ready for use and further analysis.
